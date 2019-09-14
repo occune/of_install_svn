@@ -19,6 +19,7 @@ fi
 if [ -d "open_fortress" ]; then
     echo "Updating current installation"
     cd open_fortress
+    svn cleanup
     svn update
     cd ..
 else
