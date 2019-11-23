@@ -24,5 +24,5 @@ if [ -d "open_fortress" ]; then
     cd ..
 else
    echo "Starting the download of a new copy"
-   svn checkout --username ofs --password '' --depth infinity http://svn.openfortress.fun/open_fortress/
+   svn checkout --username ofs --password '' --depth infinity https://svn.openfortress.fun/svn/open_fortress
 fi
